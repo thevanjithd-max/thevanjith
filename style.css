@@ -326,6 +326,7 @@ body{
 
 .skills{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container1{
@@ -886,3 +887,4 @@ body{
     }
 
 }
+
