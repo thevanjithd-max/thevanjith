@@ -326,7 +326,6 @@ body{
 
 .skills{
     display: flex;
-    flex-wrap: wrap;
 }
 
 .container1{
@@ -885,4 +884,5 @@ body{
         transform: translateY(0px);
         opacity: 1;
     }
+
 }
