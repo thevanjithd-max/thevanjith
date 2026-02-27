@@ -1002,7 +1002,7 @@ label #s1, label #s2{
         gap: 1.5rem;
         margin-left: 25px;
         margin-right: 25px;
-        margin-top: 500px;
+        margin-top: 200px;
     }
 
     .about-text h2{
@@ -1040,4 +1040,5 @@ label #s1, label #s2{
     .contact-form{
         display: none;
     }
+
 }
