@@ -10,42 +10,50 @@
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-
         <nav class="navbar">
-            <a href="#home" style="--i:1"class="active">Home</a>
-            <a href="#about" style="--i:2">About</a>
-            <a href="#service" style="--i:3">Skill</a>
-            <a href="#skills" style="--i:4">Portfolio</a>
-            <a href="#contact" style="--i:5">Contact</a>
+            <input type="checkbox" id="res-menu">
+            <label for="res-menu">
+                <i class="fa-solid fa-bars" id="s1"></i>
+                <i class="fa-solid fa-xmark" id="s2"></i>
+            </label>
+            <h1><a href="#home" class="logo">Portfolio</a></h1>
+            <ul>
+                <li><a href="#home" style="--i:1"class="active">Home</a></li>
+                <li><a href="#about" style="--i:2">About</a></li>
+                <li><a href="#service" style="--i:3">Skill</a></li>
+                <li><a href="#skills" style="--i:4">Portfolio</a></li>
+                <li><a href="#contact" style="--i:5">Contact</a></li>
+            </ul>
+            
         </nav>
     </header>
 
     <section class="home" id="home">
-        <div class="home-text">
-            <div class="home-content">
-                <h3>Hello, It's Me</h3>
-                <h1>Thevanjith Deelana</h1>
-                <h3>And I'm a <span class="text"></span></h3>
-                <p>I’m a Microsoft Office Specialist with over 3 years of experience in document design and data management</p>
-                <div class="home-sci">
-                    <a href="#" style="--i:7"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" style="--i:8"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#" style="--i:9"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="#" style="--i:10"><i class="fa-brands fa-tiktok"></i></a>
-                </div>
-                <a href="#" class="btn-box">Download My CV</a>
+        <div class="h">
+            <div class="home-img">
+                <img src="DP.png" height="400px">
             </div>
         </div>
-        <div class="home-img">
-            <img src="DP.png" height="400px">
+        <div class="h">
+            <div class="home-text">
+                <div class="home-content">
+                    <h3>Hello, It's Me</h3>
+                    <h1>Thevanjith Deelana</h1>
+                    <h3>And I'm a <span class="text"></span></h3>
+                    <p>I’m a Microsoft Office Specialist with over 3 years of experience in document design and data management</p>
+                    <div class="home-sci">
+                        <a href="#" style="--i:7"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" style="--i:8"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" style="--i:9"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#" style="--i:10"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    <a href="#" class="btn-box">Download My CV</a>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="DP.png" height="400px">
-        </div>
         <div class="about-text">
             <h2>About <span>Me</span></h2>
             <h4>Microsoft Office Specialist | Document & Data Expert</h4>
@@ -57,6 +65,10 @@
 
             <a href="#contact" class="btn-box">Get a Quote</a>
         </div>
+        <div class="about-img">
+            <img src="DP.png" height="400px">
+        </div>
+        
     </section>
 
     <section class="Education" id="Education">
